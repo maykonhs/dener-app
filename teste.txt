@@ -1,0 +1,32 @@
+cod banco stock: UD8fc2DD8sn7vawoiQAn
+
+onPress={() => this.removeElement(item)}
+
+import React from 'react';
+import { StyleSheet,
+         View,
+         Button,
+         Text } from 'react-native';
+
+import HeaderBar from './components/HeaderBar'
+import FabricItem from './components/FabricItem'
+
+const FabricScreen = () => (
+  <View style={styles.container}>
+    <FabricItem></FabricItem>
+  </View>
+);
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#FFF',
+  }
+})
+
+FabricScreen.navigationOptions = {
+  title: 'Tecidos',
+  header: null
+}
+
+export default FabricScreen;
