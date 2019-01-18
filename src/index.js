@@ -25,11 +25,12 @@ const TabNavigator = createMaterialTopTabNavigator(
       activeTintColor: '#FFF',
       inactiveTintColor: '#CCC',
       tabStyle: {
-        backgroundColor: '#000080'
+        backgroundColor: 'green'
       },
       labelStyle: {
         fontSize: 30,
         fontFamily: 'Caviar Dreams',
+        fontWeight: 'bold'
       }
     }
   });
